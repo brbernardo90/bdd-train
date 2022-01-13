@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Cucumber",
+        "type": "Ruby",
+        "request": "launch",
+        "cwd": "${workspaceRoot}",
+        "program": "${workspaceRoot}/bin/cucumber",
+        "args": [
+          "-t",
+          "@debug"
+        ]
+      }
+    ]
+  }

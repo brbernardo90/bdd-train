@@ -1,0 +1,7 @@
+# default: -p chrome --format json -o report_html/output_json/report.json --publish
+default: -p chrome --format pretty --format html --out report.html
+
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome 
+chrome-headless: BROWSER=chrome-headless
+poltegeist: BROWSER=poltergeist
